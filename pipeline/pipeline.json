@@ -1,6 +1,14 @@
 {
 	"name": "pipeline",
 	"properties": {
+		"activities": [
+			{
+				"name": "shared",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
 		"annotations": []
 	}
 }
